@@ -1,0 +1,341 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c3d13a1d51c8a2729c472583c391a310",
+    "packages": [
+        {
+            "name": "waughj/html-attribute",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/waughjai/html-attribute.git",
+                "reference": "71c546e63ed7f2fef029f8d5fc1b78a7485ab42d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/waughjai/html-attribute/zipball/71c546e63ed7f2fef029f8d5fc1b78a7485ab42d",
+                "reference": "71c546e63ed7f2fef029f8d5fc1b78a7485ab42d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "6.*"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "WaughJ\\HTMLAttribute\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jaimeson Waugh",
+                    "email": "waughjai@gmail.com"
+                }
+            ],
+            "description": "Simple class for encapsulating an HTML attribute",
+            "keywords": [
+                "attribute",
+                "html"
+            ],
+            "time": "2018-10-25T20:04:08+00:00"
+        },
+        {
+            "name": "waughj/html-attribute-list",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/waughjai/html-attribute-list.git",
+                "reference": "a34914ddfeab96efbbec1206120ff7fd682326d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/waughjai/html-attribute-list/zipball/a34914ddfeab96efbbec1206120ff7fd682326d4",
+                "reference": "a34914ddfeab96efbbec1206120ff7fd682326d4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "waughj/html-attribute": ">=1.0.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "6.*"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "WaughJ\\HTMLAttributeList\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jaimeson Waugh",
+                    "email": "waughjai@gmail.com"
+                }
+            ],
+            "description": "A list o' HTML attributes for easy HTML generation.",
+            "keywords": [
+                "attribute",
+                "html",
+                "list"
+            ],
+            "time": "2018-12-28T23:34:34+00:00"
+        },
+        {
+            "name": "waughj/html-link",
+            "version": "1.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/waughjai/html-link.git",
+                "reference": "6422e2355aec11dbe87d86e56ced27026ee1ee74"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/waughjai/html-link/zipball/6422e2355aec11dbe87d86e56ced27026ee1ee74",
+                "reference": "6422e2355aec11dbe87d86e56ced27026ee1ee74",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "waughj/html-attribute-list": ">=1.0.7",
+                "waughj/test-hash-item": ">=1.0.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "6.*"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "WaughJ\\HTMLLink\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jaimeson Waugh",
+                    "email": "waughjai@gmail.com"
+                }
+            ],
+            "description": "Simple class for encapsulating link info and autogenerating the HTML for it",
+            "keywords": [
+                "html",
+                "hyperlink",
+                "link"
+            ],
+            "time": "2018-11-28T20:41:43+00:00"
+        },
+        {
+            "name": "waughj/test-hash-item",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/waughjai/test-hash-item.git",
+                "reference": "5657dc1ac52e629acdd6ce57936acafc60b00394"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/waughjai/test-hash-item/zipball/5657dc1ac52e629acdd6ce57936acafc60b00394",
+                "reference": "5657dc1ac52e629acdd6ce57936acafc60b00394",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "6.*"
+            },
+            "type": "project",
+            "autoload": {
+                "files": [
+                    "src/TestHashItem.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jaimeson Waugh",
+                    "email": "waughjai@gmail.com"
+                }
+            ],
+            "description": "A collection o' helper functions for testing properties o' a hash item",
+            "keywords": [
+                "hash",
+                "tests"
+            ],
+            "time": "2018-11-29T20:46:20+00:00"
+        },
+        {
+            "name": "waughj/wp-admin-menu",
+            "version": "0.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/waughjai/wp-admin-menu.git",
+                "reference": "1fb6e9d47902e5904fca53e93d6f21339570d202"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/waughjai/wp-admin-menu/zipball/1fb6e9d47902e5904fca53e93d6f21339570d202",
+                "reference": "1fb6e9d47902e5904fca53e93d6f21339570d202",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "waughj/html-link": ">=1.2.6",
+                "waughj/test-hash-item": ">=1.0.1",
+                "waughj/wp-admin-menu": "*",
+                "waughj/wp-post-list-converter": ">=0.1.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WaughJ\\WPAdminMenu\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jaimeson Waugh",
+                    "email": "waughjai@gmail.com"
+                }
+            ],
+            "description": "Template for automatically creating link menu based on menu in WordPress's Menu in Appearance.",
+            "keywords": [
+                "admin",
+                "links",
+                "menu",
+                "template",
+                "wordpress"
+            ],
+            "time": "2019-04-23T21:26:39+00:00"
+        },
+        {
+            "name": "waughj/wp-admin-menu-manager",
+            "version": "0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/waughjai/wp-admin-menu-manager.git",
+                "reference": "afd6fbee1c360379c173428ad45061907ef86f18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/waughjai/wp-admin-menu-manager/zipball/afd6fbee1c360379c173428ad45061907ef86f18",
+                "reference": "afd6fbee1c360379c173428ad45061907ef86f18",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "waughj/wp-admin-menu": ">=0.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WaughJ\\WPAdminMenuManager\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jaimeson Waugh",
+                    "email": "waughjai@gmail.com"
+                }
+            ],
+            "description": "Singleton manager for making and printing admin menus & making them easily accessible to both WordPress Admin & public website.",
+            "keywords": [
+                "admin",
+                "defaults",
+                "factory",
+                "links",
+                "menu",
+                "template",
+                "wordpress"
+            ],
+            "time": "2019-04-23T21:52:17+00:00"
+        },
+        {
+            "name": "waughj/wp-post-list-converter",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/waughjai/wp-post-list-converter.git",
+                "reference": "f1b84d79b09beff8179859bc2bcc944b6be19cdd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/waughjai/wp-post-list-converter/zipball/f1b84d79b09beff8179859bc2bcc944b6be19cdd",
+                "reference": "f1b84d79b09beff8179859bc2bcc944b6be19cdd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "waughj/test-hash-item": ">=1.0.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "6.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WaughJ\\WPPostListConverter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jaimeson Waugh",
+                    "email": "waughjai@gmail.com"
+                }
+            ],
+            "description": "Convert WordPress's list of posts into hierarchical list easier to work with.",
+            "keywords": [
+                "converter",
+                "list",
+                "wordpress"
+            ],
+            "time": "2018-11-23T17:29:32+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0"
+    },
+    "platform-dev": []
+}

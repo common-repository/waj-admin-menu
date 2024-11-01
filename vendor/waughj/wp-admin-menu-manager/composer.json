@@ -1,0 +1,25 @@
+{
+    "name": "waughj/wp-admin-menu-manager",
+    "description": "Singleton manager for making and printing admin menus & making them easily accessible to both WordPress Admin & public website.",
+    "keywords": [ "wordpress", "admin", "menu", "links", "template", "factory", "defaults" ],
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Jaimeson Waugh",
+            "email": "waughjai@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.0",
+		"waughj/wp-admin-menu": ">=0.6.0"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WaughJ\\WPAdminMenuManager\\": "src/"
+        }
+    }
+}

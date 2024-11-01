@@ -1,0 +1,19 @@
+{
+    "name": "waughj/waj-admin-menu",
+    "description": "Factory for making default admin menus.",
+    "keywords": [ "wordpress", "admin", "menu", "links", "template", "factory", "defaults" ],
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Jaimeson Waugh",
+            "email": "waughjai@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.0",
+		"waughj/wp-post-list-converter": ">=0.1.2",
+		"waughj/wp-admin-menu": ">=0.6",
+		"waughj/wp-admin-menu-manager": "0.5"
+    }
+}
